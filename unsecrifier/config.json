@@ -1,0 +1,27 @@
+{
+  "name": "Publish Your Secrets to the Internet Addon!",
+  "version": "0.00000000000000000000000000000000000000",
+  "slug": "unsecrifier_addon",
+  "description": "This publishes your secrets.yaml to the internet!",
+  "arch": ["i386", "amd64", "armhf", "armv7", "aarch64"],
+  "startup": "application",
+  "url": "https://adamoutler.com",
+  "homeassistant": true,
+  "hassio_api": true,
+  "auth_api": true,
+  "homeassistant_api":true,
+  "ingress": true,
+  "stage": "experimental",
+  "boot": "auto",
+  "map": [ "config:rw" ],
+  "usb": true,
+  "ingress_port": 8999,
+  "ingress_entry": "refresh/?room=Angry+Users",
+  "map": ["config:rw", "ssl:rw","addons:rw","media:rw","backup:rw","share:rw"],
+  "options": {
+               "Perform Malicious Actions":false
+             },
+  "schema": {
+              "Perform Malicious Actions":"bool"
+            }
+}
