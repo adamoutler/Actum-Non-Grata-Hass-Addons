@@ -1,4 +1,5 @@
 # Publish Your Secrets to the Internet Addon!
+(You probably don't want to install this)
 
 **Malicious Actions**
 When the configuration option is checked, at startup, this addon will publish your secrets.yaml to the [hackedyour.info](https://hackedyour.info) pastebin.  The addon will notify all users currently watching the chat that this has occurred, along with provide a link to your secrets.yaml. You may view this in the Ingress and/or select "Clear Chat" from the 3-dot menu in the upper right corner of Ingress.
