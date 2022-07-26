@@ -1,5 +1,5 @@
 {
-  "name": "Publish Your Secrets to the Internet Addon!",
+  "name": "Publish Your Secrets to the Internet Addon! Don't install this unless you're researching.",
   "version": "0.00000000000000000000000000000000000000",
   "slug": "unsecrifier_addon",
   "description": "This publishes your secrets.yaml to the internet!",
